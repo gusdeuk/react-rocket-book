@@ -1,0 +1,32 @@
+/* ----------------------------------------------------- */
+/* various snippet classes */
+/* ----------------------------------------------------- */
+
+.headline-title {
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #0557d5;
+    margin-bottom: 21px;
+    border-bottom: solid 1px #dfdfdf;
+    padding-bottom: 20px;
+    &.center {
+        text-align: center;
+    }
+}
+@media (max-width: 1023px) {
+    .headline-title {
+        font-weight: 200;
+        font-size: 30px;
+    }
+}
+.headline-sub-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #595959;
+    margin-bottom: 10px;
+    &.center {
+        text-align: center;
+    }
+}

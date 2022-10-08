@@ -1,0 +1,25 @@
+/* ------------------------------------------------ */
+/* GLOBAL cascade css stuff starts here */
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+/* HTML CSS BASE */
+// @import "./scss/flattenizer";
+@import "./scss/html-body-base";
+
+/* ------------------------------------------------ */
+/* BASE UI-ELEMENTS / HELPERS */
+@import "./scss/elements/scrollbars-custom";
+@import "./scss/elements/helpers";
+@import "./scss/elements/snippet-styles";
+
+/* ------------------------------------------------ */
+/* MUI library overrides -- >> pointing to ROOT MUI COMPONENTS*/
+@import "./theme/mui-overrides";
+
+/* CSS ANIMATE */
+@import "../animations/animate-css/animate-v4.1";
+
+/* ------------------------------------------------ */
+/* WEB FONTS */
+@import "./fonts/proxima-nova/_stylesheet.css";

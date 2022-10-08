@@ -1,0 +1,18 @@
+$color-green: #6ac259;
+$color-red: #e86e6e;
+$color-purple: #7f63e4;
+$color-cyan: #4eb3ff;
+
+// pastels for light backgrounds, etc
+$color-light-cyan: #b1dfff;
+$color-light-purple: #bdc3ff;
+$color-light-orange: #ffc991;
+$color-light-pink: #efbdfb;
+
+/* ------------------------------------------------ */
+/* MUI COMPONENTS OVERRIDES */
+/* ------------------------------------------------ */
+
+@import "mui-components/button";
+@import "mui-components/react-select";
+@import "mui-components/swiper-carousel";
